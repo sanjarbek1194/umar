@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+#icon-telegram {
+    color: #7ac143;
+}
+
+#hudud-tanlash {
+    border: none;
+    color: #7ac143;
+    box-shadow: none;
+    outline: none;
+}
+
+.para-dot {
+    font-size: 16px;
+}
+
+#icon-dot {
+    color: #7ac143;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+}
+#til-tanlash {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 13px;
+    color: #7ac143;
+}
+
+.navbar2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 158px;
+    height: 38px;
+}
+
+#input-search {
+    background: #fff;
+    /* border: 1px solid #e7e7e7; */
+    border: none;
+    box-shadow: inset 2px 2px 3px rgb(0 0 0 / 10%);
+    border-radius: 5px 0 0 5px;
+    width: 445px;
+    font-size: 14px;
+    line-height: 16px;
+    position: relative;
+    /* margin:0 0 0 -16rem; */
+    height: 43px;
+    outline: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #input-search {
+        width: 300px;
+    }
+
+    @media (max-width:766px) {
+        .form {
+            display: none;
+        }
+    }
+}
+
+.btn-search:hover {
+    background: #73b83e;
+}
+
+.btn-search {
+    background: #7ac143;
+    color: #fff;
+    width: 50px;
+    height: 42.5px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    margin-left: -10px;
+}
+.korzinka{
+    margin-left:100px;
+}
+#som{
+    color: rgb(87, 86, 86);
+     font-size: 16px;
+}
+.navbar3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.catalog-btn{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #7ac143;
+        border-radius: 4px;
+        padding: 12px 15px 12px 20px;
+        font-size: 14px;
+        line-height: 16px;
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        border: none;
+}
+#kolyaska{
+    padding-left: 10px;
+}
+.para{
+    word-spacing: 40px;
+    /* line-height: 50px; */
+}
+#para-nomer{
+    margin-left: 100px;
+}
+.container1{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.container1 p{
+    font-size: 24px;
+    color: #777777;
+}
+.hayotga-umid{
+    width: 13rem;
+height: 3rem;
+line-height: 50px;
+background-color: #7ac143;
+margin: auto;
+display: flex;
+margin: 30px auto;
+}
+.hayotga-umid a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.hayot{
+    width: 40px;
+    height: 40px;
+}
+.banner{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 0 50px 0;
+}
+.banner img{
+    width: 80%;
+    height: 50vh;
+}
+.yurakcha{
+    margin-left: 20px ;
+}
+.myCard3 img{
+height: 10.8rem;
+}
+.top-mahsulot a{
+    font-size: 20px;
+    color: #555555;
+    text-decoration: none;
+}
+.top-mahsulot a:hover{
+    border-bottom: 2px solid #555555;
+}
